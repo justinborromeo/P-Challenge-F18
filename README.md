@@ -4,11 +4,13 @@ Competitors are tasked with developing bots to play the Tron lightbike game agai
 
 ## Setup
 The server is written in Python (specifically, Python 3) and requires the following pip packages:
+
 - websockets
 - asyncio
 - psycopg2
 - aiohttp
 - sqlalchemy
+
 The project also uses PostgreSQL.  Once installed, create a database called WEC.db with a user named postgres and the password q1w2e3.  Alternatively, these credentials can be changed in the connection string in main.py.  On first execution of main.py, the ORM will auto create the tables.
 
 ## Adding Team Credentials
