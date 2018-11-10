@@ -13,3 +13,6 @@ The project also uses PostgreSQL.  Once installed, create a database called WEC.
 
 ## Adding Team Credentials
 Run add_team_to_db.py.  It will prompt you for a team_id.  Once given an id, it will add the team to the database then return a authentication key.
+
+## Writing a Client
+Details on client mechanics can be found at: https://drive.google.com/file/d/1Smyy0JDS-8KWkVPdlIDWs4Ro88ISRnxn/view?usp=sharing
